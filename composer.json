@@ -36,5 +36,12 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Waynestate\\Youtube\\ParseIdServiceProvider"
+            ]
+        }
     }
 }

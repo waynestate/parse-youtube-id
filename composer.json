@@ -1,7 +1,7 @@
 {
     "name": "waynestate/parse-youtube-id",
-    "description": "Parse the ID of a video from YouTube URL",
-    "version": "0.0.0",
+    "description": "Parse the Video ID from a YouTube URL",
+    "version": "1.0.0",
     "type": "library",
     "homepage": "https://github.com/waynestate/parse-youtube-id",
     "license": "MIT",

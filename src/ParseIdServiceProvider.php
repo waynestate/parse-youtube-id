@@ -17,13 +17,4 @@ class ParseIdServiceProvider extends ServiceProvider
             return new ParseId();
         });
     }
-    /**
-     * Bootstrap any application services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        //
-    }
 }

@@ -1,0 +1,47 @@
+{
+    "name": "waynestate/parse-youtube-id",
+    "description": "Parse the Video ID from a YouTube URL",
+    "version": "1.0.0",
+    "type": "library",
+    "homepage": "https://github.com/waynestate/parse-youtube-id",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick DeNardis",
+            "email": "ndenardis@wayne.edu",
+            "homepage": "https://wayne.edu",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "waynestate",
+        "youtube",
+        "url"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Waynestate\\Youtube\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Waynestate\\Youtube\\Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Waynestate\\Youtube\\ParseIdServiceProvider"
+            ]
+        }
+    }
+}

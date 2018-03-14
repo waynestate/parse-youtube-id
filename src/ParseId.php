@@ -7,6 +7,7 @@ class ParseId
     /**
      * Parse the video ID from a YouTube URL
      *
+     * @author Stephan Schmitz <eyecatchup@gmail.com>
      * @param string $url
      * @return string
      */

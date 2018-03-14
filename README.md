@@ -71,7 +71,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details
 
 ## Credit
 
-Adapted from [https://3v4l.org/GEDT0](https://3v4l.org/GEDT0)
+Adapted from [Stephan Schmitz](https://stackoverflow.com/users/624466/eyecatchup) at [https://3v4l.org/GEDT0](https://3v4l.org/GEDT0)
 
 ## About
 
